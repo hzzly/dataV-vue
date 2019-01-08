@@ -1,6 +1,8 @@
 <template>
   <div class="index">
-    <div class="header">dataV</div>
+    <div class="header">
+      <v-header :indexes="indexes"></v-header>
+    </div>
     <div class="top-left"></div>
     <div class="top-center"></div>
     <div class="top-right"></div>
@@ -10,10 +12,19 @@
 </template>
 
 <script>
+import VHeader from 'components/Header'
 export default {
   name: 'index',
+  components: {
+    VHeader
+  },
   data () {
     return {
+      indexes: [
+        { name: 'Repositories', value: 64 },
+        { name: 'Followers', value: 153 },
+        { name: 'Following', value: 20 }
+      ]
     }
   },
   mounted () {
