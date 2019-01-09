@@ -4,8 +4,12 @@
       <v-header :indexes="indexes"></v-header>
     </div>
     <div class="top-left"></div>
-    <div class="top-center"></div>
-    <div class="top-right"></div>
+    <div class="top-center">
+      <v-bar></v-bar>
+    </div>
+    <div class="top-right">
+      <v-line />
+    </div>
     <div class="bottom-left"></div>
     <div class="bottom-right"></div>
   </div>
@@ -13,10 +17,14 @@
 
 <script>
 import VHeader from 'components/Header'
+import VBar from 'components/Charts/Bar'
+import VLine from 'components/Charts/Line'
 export default {
   name: 'index',
   components: {
-    VHeader
+    VHeader,
+    VBar,
+    VLine
   },
   data () {
     return {
@@ -28,6 +36,11 @@ export default {
     }
   },
   mounted () {
+  },
+  methods: {
+    runAction (aaa) {
+      console.log(aaa)
+    }
   }
 }
 </script>
