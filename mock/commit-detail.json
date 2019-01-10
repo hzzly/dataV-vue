@@ -1,0 +1,98 @@
+{
+	"sha": "d67144a13548b10b7564f4485899e8a9253d9684",
+	"node_id": "MDY6Q29tbWl0ODI4Njc1NzQ6ZDY3MTQ0YTEzNTQ4YjEwYjc1NjRmNDQ4NTg5OWU4YTkyNTNkOTY4NA==",
+	"commit": {
+		"author": {
+			"name": "hzzly",
+			"email": "hjingren@aliyun.com",
+			"date": "2017-03-05T05:47:17Z"
+		},
+		"committer": {
+			"name": "hzzly",
+			"email": "hjingren@aliyun.com",
+			"date": "2017-03-05T05:47:17Z"
+		},
+		"message": "Add readme",
+		"tree": {
+			"sha": "2920c36fae3f37983404fdf492ae62cb527da43e",
+			"url": "https://api.github.com/repos/hzzly/xyy-vue/git/trees/2920c36fae3f37983404fdf492ae62cb527da43e"
+		},
+		"url": "https://api.github.com/repos/hzzly/xyy-vue/git/commits/d67144a13548b10b7564f4485899e8a9253d9684",
+		"comment_count": 0,
+		"verification": {
+			"verified": false,
+			"reason": "unsigned",
+			"signature": null,
+			"payload": null
+		}
+	},
+	"url": "https://api.github.com/repos/hzzly/xyy-vue/commits/d67144a13548b10b7564f4485899e8a9253d9684",
+	"html_url": "https://github.com/hzzly/xyy-vue/commit/d67144a13548b10b7564f4485899e8a9253d9684",
+	"comments_url": "https://api.github.com/repos/hzzly/xyy-vue/commits/d67144a13548b10b7564f4485899e8a9253d9684/comments",
+	"author": {
+		"login": "hzzly",
+		"id": 16360684,
+		"node_id": "MDQ6VXNlcjE2MzYwNjg0",
+		"avatar_url": "https://avatars2.githubusercontent.com/u/16360684?v=4",
+		"gravatar_id": "",
+		"url": "https://api.github.com/users/hzzly",
+		"html_url": "https://github.com/hzzly",
+		"followers_url": "https://api.github.com/users/hzzly/followers",
+		"following_url": "https://api.github.com/users/hzzly/following{/other_user}",
+		"gists_url": "https://api.github.com/users/hzzly/gists{/gist_id}",
+		"starred_url": "https://api.github.com/users/hzzly/starred{/owner}{/repo}",
+		"subscriptions_url": "https://api.github.com/users/hzzly/subscriptions",
+		"organizations_url": "https://api.github.com/users/hzzly/orgs",
+		"repos_url": "https://api.github.com/users/hzzly/repos",
+		"events_url": "https://api.github.com/users/hzzly/events{/privacy}",
+		"received_events_url": "https://api.github.com/users/hzzly/received_events",
+		"type": "User",
+		"site_admin": false
+	},
+	"committer": {
+		"login": "hzzly",
+		"id": 16360684,
+		"node_id": "MDQ6VXNlcjE2MzYwNjg0",
+		"avatar_url": "https://avatars2.githubusercontent.com/u/16360684?v=4",
+		"gravatar_id": "",
+		"url": "https://api.github.com/users/hzzly",
+		"html_url": "https://github.com/hzzly",
+		"followers_url": "https://api.github.com/users/hzzly/followers",
+		"following_url": "https://api.github.com/users/hzzly/following{/other_user}",
+		"gists_url": "https://api.github.com/users/hzzly/gists{/gist_id}",
+		"starred_url": "https://api.github.com/users/hzzly/starred{/owner}{/repo}",
+		"subscriptions_url": "https://api.github.com/users/hzzly/subscriptions",
+		"organizations_url": "https://api.github.com/users/hzzly/orgs",
+		"repos_url": "https://api.github.com/users/hzzly/repos",
+		"events_url": "https://api.github.com/users/hzzly/events{/privacy}",
+		"received_events_url": "https://api.github.com/users/hzzly/received_events",
+		"type": "User",
+		"site_admin": false
+	},
+	"parents": [
+		{
+			"sha": "b7841a401a1695c311a3530a050e881ea41048a1",
+			"url": "https://api.github.com/repos/hzzly/xyy-vue/commits/b7841a401a1695c311a3530a050e881ea41048a1",
+			"html_url": "https://github.com/hzzly/xyy-vue/commit/b7841a401a1695c311a3530a050e881ea41048a1"
+		}
+	],
+	"stats": {
+		"total": 1,
+		"additions": 1,
+		"deletions": 0
+	},
+	"files": [
+		{
+			"sha": "57563440f82a70ddbd8ac1b75ff7bc600771b30a",
+			"filename": "README.md",
+			"status": "modified",
+			"additions": 1,
+			"deletions": 0,
+			"changes": 1,
+			"blob_url": "https://github.com/hzzly/xyy-vue/blob/d67144a13548b10b7564f4485899e8a9253d9684/README.md",
+			"raw_url": "https://github.com/hzzly/xyy-vue/raw/d67144a13548b10b7564f4485899e8a9253d9684/README.md",
+			"contents_url": "https://api.github.com/repos/hzzly/xyy-vue/contents/README.md?ref=d67144a13548b10b7564f4485899e8a9253d9684",
+			"patch": "@@ -11,6 +11,7 @@\n > * axios\n > * es6\n > * webpack\n+\n #### 后台\n > * Node(Express)\n > * restful api"
+		}
+	]
+}

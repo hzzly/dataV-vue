@@ -7,9 +7,18 @@
 </template>
 
 <script>
+import api from 'api/request'
 export default {
   name: 'app',
   mounted () {
+    this.getUserInfo()
+  },
+  methods: {
+    getUserInfo () {
+      api.getUserInfo().then(res => {
+        console.log(res)
+      })
+    }
   }
 }
 </script>
