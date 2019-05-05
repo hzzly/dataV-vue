@@ -101,6 +101,9 @@ export default {
         this.destroy()
         this.initChart()
       }
+    },
+    getChart () {
+      return this.chart
     }
   },
   activated () {
